@@ -1,0 +1,209 @@
+header{
+    background-image: url(../rock/guitar.jpeg);
+   
+    height: 800px;
+    background-size: cover;
+    color: white;
+    flex-direction:column;
+   
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+
+   
+
+}
+h1{
+    text-align: center;
+}
+header nav{
+    background-color: rgba($color: #382020, $alpha: 0.8);
+    text-align: center;
+    flex-direction: row;
+
+    nav ul{
+        nav ul{
+            color: white;
+            display: flex;
+            justify-content:space-around;
+         
+            list-style: none;
+            align-items: center;
+            margin-top: 30px;
+            padding-right: 40px;
+        }
+    }
+    
+    
+   
+    
+   
+    
+    
+    
+
+}
+li {
+    display: flex;
+}
+.head{
+    align-items: center;
+    justify-content: center;
+
+}
+button{
+    color: white;
+    background-color: red;
+    height: 40px;
+    width: 100px;
+  
+    
+
+}
+.guitar{
+    align-items: center;
+    justify-content: center;
+
+}
+hr {
+    width: 500px;
+    height: 1px;
+    color: grey;
+}
+h2 {
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+.album{
+    display: flex;
+    justify-content: space-around;
+}
+.album img {
+    height: 350px;
+    width: 350px;
+}
+.tickets{
+    color: white;
+    background-image: url(../rock/p1.jpg);
+    background-size: cover;
+    font-size: 40px;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-attachment: fixed;
+}
+
+.song{
+
+    display: flex;
+
+}
+h3 {
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.album2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+   
+}
+.album2-padre{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.album2-hijo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.album2 img{
+    height: 180px;
+    width:  180px;
+    justify-content: space-around;
+
+}
+.album2 h3{
+    color: orange;
+}
+
+.fireguitar {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    background-image: url(../rock/fireguitar.jpeg);
+    background-image: center;
+    background-attachment: fixed;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    height: 500px;
+
+}
+.fireguitar-son{
+    width: 70vh;
+    background-color: rgba($color: #000000, $alpha: 0.4);
+
+}
+audio{
+    display: flex;
+   
+}
+
+.faces{
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+}
+.faces img{
+    height: 200px;
+    width: 200px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+
+footer div{
+    border: solid black 1px;
+    padding-top: 100px;
+    background-size: cover;
+    height: 300px;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+@media (min-witdh: 600px) AND (max-witdh: 800px){
+
+}
+
+
+
+// @media(max-witdh: 768px){
+    // width: 100%;
+  
+    
+// }
+// @media (max-witdh:{
+    
+// }
+
+
+
+
+
